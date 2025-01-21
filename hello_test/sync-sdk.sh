@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Paths to repositories
-UPSTREAM_REPO="https://github.com/Ameba-AIoT/ameba-rtos.git"
-TARGET_REPO_PATH="./your-local-repo"
+UPSTREAM_REPO="https://github.com/orz9/repo-test2.git"
+TARGET_REPO_PATH="./repo-test1"
 
 # Folders to monitor and sync
-FOLDERS_TO_SYNC=("folder1" "folder2" "folder3")  # Replace with the actual folder names
+FOLDERS_TO_SYNC=("hello_test")  # Replace with the actual folder names
 
 # Temporary feature branch in the target repository for syncing changes
 FEATURE_BRANCH_PREFIX="feature/sync-tag-"
